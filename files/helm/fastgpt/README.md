@@ -2,7 +2,7 @@
 
 ![Version: 0.1.0](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v4.6.6](https://img.shields.io/badge/AppVersion-v4.6.6-informational?style=flat-square)
 
-A Helm chart for FastGPT
+A Helm chart for SusuGPT
 
 ## Requirements
 
@@ -22,7 +22,7 @@ A Helm chart for FastGPT
 | autoscaling.targetCPUUtilizationPercentage | int | `80` |  |
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
-| image.repository | string | `"ghcr.io/labring/fastgpt"` |  |
+| image.repository | string | `""` |  |
 | image.tag | string | `""` |  |
 | imagePullSecrets | list | `[]` |  |
 | ingress.annotations | object | `{}` |  |

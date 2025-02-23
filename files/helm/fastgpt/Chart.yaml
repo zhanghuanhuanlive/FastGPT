@@ -1,6 +1,6 @@
 apiVersion: v2
 name: fastgpt
-description: A Helm chart for FastGPT
+description: A Helm chart for SusuGPT
 
 # A chart can be either an 'application' or a 'library' chart.
 #

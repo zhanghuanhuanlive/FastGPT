@@ -1163,7 +1163,7 @@
   "support.wallet.subscription.standardSubLevel.enterprise": "Enterprise",
   "support.wallet.subscription.standardSubLevel.enterprise_desc": "Suitable for small and medium-sized enterprises to build Dataset applications in production environments",
   "support.wallet.subscription.standardSubLevel.experience": "Experience",
-  "support.wallet.subscription.standardSubLevel.experience_desc": "Unlock the full functionality of FastGPT",
+  "support.wallet.subscription.standardSubLevel.experience_desc": "Unlock the full functionality of SusuGPT",
   "support.wallet.subscription.standardSubLevel.free": "Free",
   "support.wallet.subscription.standardSubLevel.free desc": "Basic functions can be used for free every month. If the system is not logged in for 30 consecutive days, the Dataset will be automatically cleared.",
   "support.wallet.subscription.standardSubLevel.team": "Team",

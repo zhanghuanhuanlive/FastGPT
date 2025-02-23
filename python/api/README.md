@@ -1,4 +1,4 @@
-# FastGPT-python-API
+# SusuGPT-python-API
 作者：stakeswky。有问题请这样联系我：stakeswky@gmail.com
 ## 1. 项目简介
 该API以python为技术栈，为fastgpt提供了一个简单易用的接口，方便fastgpt处理各种任务。该API的主要功能包括：

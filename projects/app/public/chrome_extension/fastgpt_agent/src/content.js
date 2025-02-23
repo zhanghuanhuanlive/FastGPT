@@ -33,7 +33,7 @@ chrome.storage.local.get(["showChatBot"], function (result) {
         const iframe = document.createElement('iframe');
         iframe.referrerPolicy = 'no-referrer';
         iframe.allow = 'microphone';
-        iframe.title = 'FastGPT Chat Window';
+        iframe.title = 'SusuGPT Chat Window';
         iframe.id = chatWindowId;
         iframe.style.cssText = 'border: none; width: 100%; height: 100%;';
 

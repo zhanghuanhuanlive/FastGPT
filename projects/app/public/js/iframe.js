@@ -34,7 +34,7 @@ function embedChatbot() {
   const iframe = document.createElement('iframe');
   iframe.allow = '*';
   iframe.referrerPolicy = 'no-referrer';
-  iframe.title = 'FastGPT Chat Window';
+  iframe.title = 'SusuGPT Chat Window';
   iframe.id = chatWindowId;
   iframe.src = botSrc;
   iframe.style.cssText =

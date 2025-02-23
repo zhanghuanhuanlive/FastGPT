@@ -212,11 +212,11 @@ const Navbar = ({ unread }: { unread: number }) => {
           </MyTooltip>
         ))}
 
-      {feConfigs?.show_git && (
+      {/* {feConfigs?.show_git && (
         <MyTooltip label={`Git Star: ${gitStar}`} placement={'right-end'}>
           <Link
             as={NextLink}
-            href="https://github.com/labring/FastGPT"
+            href=""
             target={'_blank'}
             {...itemStyles}
             {...hoverStyle}
@@ -227,7 +227,7 @@ const Navbar = ({ unread }: { unread: number }) => {
             <MyIcon name={'common/gitInlight'} width={'26px'} height={'26px'} />
           </Link>
         </MyTooltip>
-      )}
+      )} */}
     </Flex>
   );
 };

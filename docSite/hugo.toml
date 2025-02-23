@@ -1,4 +1,4 @@
-baseURL = "https://doc.tryfastgpt.ai"
+baseURL = "https://doc.trySusuGPT.ai"
 languageCode = "en-GB"
 contentDir = "content"
 enableEmoji = true
@@ -8,12 +8,12 @@ defaultContentLanguage = 'zh-cn'
 defaultContentLanguageInSubdir = false
 [languages]
   [languages.zh-cn]
-    title = "FastGPT"
+    title = "SusuGPT"
     languageName = "简体中文"
     contentDir = "content/zh-cn"
     weight = 10
   [languages.en]
-    title = "FastGPT Docs"
+    title = "SusuGPT Docs"
     languageName = "English"
     contentDir = "content/en"
     weight = 10
@@ -61,16 +61,15 @@ defaultContentLanguageInSubdir = false
   mono_font       = "JetBrains Mono" # Default is System font
 
     [params.footer]
-        copyright = "© :YEAR: the FastGPT Authors."
+        copyright = "© :YEAR: the SusuGPT Authors."
         version = false # includes git commit info
 
     [params.social]
-        github = "labring/FastGPT"        # YOUR_GITHUB_ID or YOUR_GITHUB_URL
+        github = ""        # YOUR_GITHUB_ID or YOUR_GITHUB_URL
         # twitter = ""       # YOUR_TWITTER_ID
         # instagram = "colinwilson"     # YOUR_INSTAGRAM_ID
         # rss = true                    # show rss icon with link
-        lark = "https://oss.laf.run/otnvvf-imgs/fastgpt-feishu1.png"
-        wechat = "https://oss.laf.run/htr4n1-images/fastgpt-qr-code.jpg"
+        
 
     [params.docs] # Parameters for the /docs 'template'
         title           = ""           # default html title for documentation pages/sections
@@ -86,7 +85,7 @@ defaultContentLanguageInSubdir = false
         prismTheme      = "lotusdocs"                           # (optional) - Set theme for PrismJS. Options include: lotusdocs (default), solarized-light, twilight, lucario
 
         # gitinfo
-        repoURL         = "https://github.com/labring/FastGPT"  # Git repository URL for your site
+        repoURL         = ""  # Git repository URL for your site
         repoBranch      = "main"                           # Name of your Git repository branch
         editPage        = true                                # enable 'Edit this page' feature - default false
         lastMod         = false                                # enable 'Last modified' date on pages - default false
@@ -114,7 +113,7 @@ defaultContentLanguageInSubdir = false
         # Link behaviour
         intLinkTooltip  = true                                # Enable a tooltip for internal links that displays info about the destination? default false
         # extLinkNewTab   = false                             # Open external links in a new Tab? default true
-        logoLinkURL = "https://tryfastgpt.ai/"                                    # Set a custom URL destination for the top header logo link.
+        logoLinkURL = "https://trySusuGPT.ai/"                                    # Set a custom URL destination for the top header logo link.
 
     [params.flexsearch] # Parameters for FlexSearch
         # enabled             = true
@@ -128,7 +127,7 @@ defaultContentLanguageInSubdir = false
     [params.docsearch] # Parameters for DocSearch
         appID     = "5BEWEMH0YA" # Algolia Application ID
         apiKey    = "14834e919a87217d919d6d881fcacac3" # Algolia Search-Only API (Public) Key
-        indexName = "fastgpt" # Index Name to perform search on (or set env variable HUGO_PARAM_DOCSEARCH_indexName)
+        indexName = "SusuGPT" # Index Name to perform search on (or set env variable HUGO_PARAM_DOCSEARCH_indexName)
 
     [params.analytics] # Parameters for Analytics (Google, Plausible)
         # plausibleURL    = "/docs/s" # (or set via env variable HUGO_PARAM_ANALYTICS_plausibleURL)
@@ -160,8 +159,8 @@ defaultContentLanguageInSubdir = false
 
     [params.umamiAnalytics]
       websiteid = "69b3f2c6-39a5-4937-b92d-6fdd5c8f5958"
-      domain = "umami.fastgpt.in"
-      scriptName = "fastgpt"
+      domain = ""
+      scriptName = "susuGPT"
 
 [menu]
 [[menu.primary]]

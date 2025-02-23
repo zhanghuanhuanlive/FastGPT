@@ -340,7 +340,7 @@
             "description": "common:core.module.input.description.Http Request Url",
             "placeholder": "https://api.ai.com/getInventory",
             "required": false,
-            "value": "https://api.github.com/repos/labring/FastGPT/issues",
+            "value": "",
             "valueDesc": "",
             "debugLabel": "",
             "toolDescription": ""

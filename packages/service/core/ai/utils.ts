@@ -22,7 +22,7 @@ export const computedMaxToken = ({
   return maxToken;
 };
 
-// FastGPT temperature range: [0,10], ai temperature:[0,2],{0,1]……
+// SusuGPT temperature range: [0,10], ai temperature:[0,2],{0,1]……
 export const computedTemperature = ({
   model,
   temperature

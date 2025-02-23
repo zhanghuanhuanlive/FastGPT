@@ -35,9 +35,9 @@ const openapi = convertOpenApi({
   apis,
   openapi: '3.0.0',
   info: {
-    title: 'FastGPT OpenAPI',
+    title: 'SusuGPT OpenAPI',
     version: '1.0.0',
-    author: 'FastGPT'
+    author: 'SusuGPT'
   },
   components: {
     securitySchemes: {
